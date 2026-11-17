@@ -1,5 +1,13 @@
 # Bot AMK Amazonika
 
+<p>
+  <img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" />
+  <img src="https://img.shields.io/badge/Express-0d1117?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude_API-0d1117?style=for-the-badge&logo=anthropic&logoColor=D97757" />
+  <img src="https://img.shields.io/badge/Google_Sheets-0d1117?style=for-the-badge&logo=googlesheets&logoColor=34A853" />
+  <img src="https://img.shields.io/badge/WhatsApp-0d1117?style=for-the-badge&logo=whatsapp&logoColor=25D366" />
+</p>
+
 Bot de atendimento e vendas via WhatsApp para a AMK Amazonika, feito como
 extensão voluntária do projeto de extensão da UCB.
 
