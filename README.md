@@ -68,3 +68,13 @@ npm run chat:admin       # você conversa como EDEILTON ("vendi 2 gengibre")
 
 Depois confira em `data/estoque.json` se as quantidades mudaram.
 Em produção, não defina `STOCK_BACKEND`: o bot usa o Google Sheets.
+
+## 🗺️ Próximos passos
+
+- Controle de estoque em pontos de venda parceiros (revenda e consignação)
+- Relatório semanal de vendas enviado ao dono pelo WhatsApp
+- Painel simples para acompanhar conversas e pedidos
+
+---
+
+Feito por [Leonardo Serrão](https://www.linkedin.com/in/leonardo-serrao-378819188/)
