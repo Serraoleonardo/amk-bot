@@ -1,4 +1,4 @@
-# Bot AMK Amazonika
+# EstoqueBot
 
 <p>
   <img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" />
@@ -8,14 +8,14 @@
   <img src="https://img.shields.io/badge/WhatsApp-0d1117?style=for-the-badge&logo=whatsapp&logoColor=25D366" />
 </p>
 
-Bot de atendimento e vendas via WhatsApp para a AMK Amazonika, feito como
-extensão voluntária do projeto de extensão da UCB.
+Bot de atendimento e vendas via WhatsApp com IA, feito para um pequeno
+negócio local que vende pelo WhatsApp e controla o estoque numa planilha.
 
 ## O que ele faz
 
 - **Atende clientes** em conversa livre pelo WhatsApp, usando Claude para
   entender o pedido, consultar o estoque (Google Sheets) e fechar vendas.
-- **Reconhece o Edeilton** pelo número de telefone dele: quando ele avisa
+- **Reconhece o dono do negócio** pelo número de telefone: quando ele avisa
   sobre uma venda física (ex: "vendi 2 gengibre agora"), o bot interpreta a
   mensagem e dá baixa automaticamente no estoque da planilha.
 
@@ -29,9 +29,9 @@ WhatsApp  <-->  Evolution API  <-->  Bot (Node.js/Express)  <-->  Claude API
 ```
 
 - `src/server.js` — recebe os webhooks da Evolution API e decide se a
-  mensagem é do Edeilton (admin) ou de um cliente.
+  mensagem é do dono (admin) ou de um cliente.
 - `src/claudeAssistant.js` — conversa com o Claude, com duas "personas"
-  (atendente de vendas / assistente do Edeilton) e ferramentas para
+  (atendente de vendas / assistente do dono) e ferramentas para
   consultar e atualizar o estoque.
 - `src/sheetsClient.js` — lê e atualiza a planilha do Google Sheets.
 - `src/evolutionClient.js` — envia mensagens de volta pelo WhatsApp.
@@ -63,7 +63,7 @@ npm install
 npm test                 # testes offline da lógica de estoque (sem API)
 cp .env.example .env     # preencha só ANTHROPIC_API_KEY para os chats abaixo
 npm run chat             # você conversa como CLIENTE
-npm run chat:admin       # você conversa como EDEILTON ("vendi 2 gengibre")
+npm run chat:admin       # você conversa como DONO ("vendi 2 gengibre")
 ```
 
 Depois confira em `data/estoque.json` se as quantidades mudaram.
