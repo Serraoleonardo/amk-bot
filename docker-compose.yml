@@ -1,0 +1,31 @@
+version: "3.7"
+
+services:
+  evolution-api:
+    image: atendai/evolution-api:latest
+    container_name: evolution-api
+    restart: always
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      - AUTHENTICATION_API_KEY=troque-por-uma-chave-forte-e-secreta
+      - AUTHENTICATION_EXPOSE_IN_FETCH_INSTANCES=true
+      - DATABASE_ENABLED=false
+      - CACHE_REDIS_ENABLED=false
+      - LOG_LEVEL=ERROR
+    volumes:
+      - evolution_instances:/evolution/instances
+
+  amk-bot:
+    build: .
+    container_name: amk-bot
+    restart: always
+    ports:
+      - "127.0.0.1:3000:3000"
+    env_file:
+      - .env
+    depends_on:
+      - evolution-api
+
+volumes:
+  evolution_instances:
