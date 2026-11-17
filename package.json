@@ -1,0 +1,18 @@
+{
+  "name": "amk-amazonika-bot",
+  "version": "1.0.0",
+  "description": "Bot de atendimento e vendas via WhatsApp para AMK Amazonika, com Evolution API + Claude + Google Sheets",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node scripts/test-stock.js",
+    "chat": "node scripts/chat.js",
+    "chat:admin": "node scripts/chat.js --admin"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "express": "^4.19.2",
+    "googleapis": "^140.0.1",
+    "dotenv": "^16.4.5"
+  }
+}
