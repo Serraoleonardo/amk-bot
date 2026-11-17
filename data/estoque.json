@@ -1,0 +1,128 @@
+[
+  {
+    "sabor": "Morango c/ Hibisco",
+    "tamanho": "300ml",
+    "preco": 13,
+    "estoque": 15
+  },
+  {
+    "sabor": "Morango c/ Hibisco",
+    "tamanho": "500ml",
+    "preco": 16,
+    "estoque": 15
+  },
+  {
+    "sabor": "Morango c/ Hibisco",
+    "tamanho": "1L",
+    "preco": 28,
+    "estoque": 15
+  },
+  {
+    "sabor": "Uva Fresh",
+    "tamanho": "300ml",
+    "preco": 13,
+    "estoque": 15
+  },
+  {
+    "sabor": "Uva Fresh",
+    "tamanho": "500ml",
+    "preco": 16,
+    "estoque": 15
+  },
+  {
+    "sabor": "Uva Fresh",
+    "tamanho": "1L",
+    "preco": 28,
+    "estoque": 15
+  },
+  {
+    "sabor": "Uva Roxa",
+    "tamanho": "300ml",
+    "preco": 13,
+    "estoque": 15
+  },
+  {
+    "sabor": "Uva Roxa",
+    "tamanho": "500ml",
+    "preco": 16,
+    "estoque": 15
+  },
+  {
+    "sabor": "Uva Roxa",
+    "tamanho": "1L",
+    "preco": 28,
+    "estoque": 15
+  },
+  {
+    "sabor": "Guaraná da Amazônia",
+    "tamanho": "300ml",
+    "preco": 13,
+    "estoque": 15
+  },
+  {
+    "sabor": "Guaraná da Amazônia",
+    "tamanho": "500ml",
+    "preco": 16,
+    "estoque": 15
+  },
+  {
+    "sabor": "Guaraná da Amazônia",
+    "tamanho": "1L",
+    "preco": 28,
+    "estoque": 15
+  },
+  {
+    "sabor": "Limão com Gengibre",
+    "tamanho": "300ml",
+    "preco": 13,
+    "estoque": 15
+  },
+  {
+    "sabor": "Limão com Gengibre",
+    "tamanho": "500ml",
+    "preco": 16,
+    "estoque": 15
+  },
+  {
+    "sabor": "Limão com Gengibre",
+    "tamanho": "1L",
+    "preco": 28,
+    "estoque": 15
+  },
+  {
+    "sabor": "Açaí da Amazônia",
+    "tamanho": "300ml",
+    "preco": 13,
+    "estoque": 15
+  },
+  {
+    "sabor": "Açaí da Amazônia",
+    "tamanho": "500ml",
+    "preco": 16,
+    "estoque": 15
+  },
+  {
+    "sabor": "Açaí da Amazônia",
+    "tamanho": "1L",
+    "preco": 28,
+    "estoque": 15
+  },
+  {
+    "sabor": "Abacaxi c/ Hortelã e Limão",
+    "tamanho": "300ml",
+    "preco": 13,
+    "estoque": 15
+  },
+  {
+    "sabor": "Abacaxi c/ Hortelã e Limão",
+    "tamanho": "500ml",
+    "preco": 16,
+    "estoque": 15
+  },
+  {
+    "sabor": "Abacaxi c/ Hortelã e Limão",
+    "tamanho": "1L",
+    "preco": 28,
+    "estoque": 15
+  }
+]
